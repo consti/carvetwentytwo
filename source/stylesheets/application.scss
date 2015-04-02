@@ -1,0 +1,75 @@
+//==============================================================================
+// application.scss
+//
+// Manifest file for stylesheets.
+//==============================================================================
+
+// Vendor
+//------------------------------------------------------------------------------
+@import "vendor/normalize";
+
+// Config
+//------------------------------------------------------------------------------
+@import "config/media";
+@import "config/colors";
+@import "config/typography";
+@import "config/layout";
+
+// Components
+//------------------------------------------------------------------------------
+body, html {
+  font-family: Helvetica;
+}
+
+
+#hero {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0.2em;
+}
+
+#logo-wrapper {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  img {
+    float: right;
+    width: 50%;
+  }
+}
+
+
+
+@media(min-width:767px) {
+  #hero {
+    font-size: 3em;
+  }
+  #logo-wrapper {
+    img {
+      width: 70%;
+    }
+  }
+}
+
+@media(min-width:1199px) {
+  #hero {
+    font-size: 5em;
+  }
+  #logo-wrapper {
+    img {
+      width: 100%;
+    }
+  }
+
+}
+
+
+a {
+  text-decoration: none;
+  color: #FF0DFF;
+}
+
+a:hover {
+  text-decoration: underline;
+}
