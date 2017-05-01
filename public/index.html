@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# restaurant: http://ogp.me/ns/restaurant#">
+    <meta charset="utf-8">
+    <title>Carve Twenty Two</title>
+    <link rel="stylesheet" href="/css/master.css">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://carve22.com" />
+    <meta property="og:title" content="Carve Twenty Two" />
+    <meta property="og:image" content="http://carve22.com/images/logo.png" />
+    <meta property="og:description" content="Thai Fruit Carving experience on Sukhumvit Soi 22 in Bangkok." />
+    <script type="text/javascript">
+        function initMap() {
+            var center = new google.maps.LatLng(13.729640, 100.565345);
+            var mapOptions = {
+                zoom: 16,
+                scrollwheel: false,
+                navigationControl: false,
+                mapTypeControl: false,
+                draggable: true,
+                center: center,
+
+                styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}]
+            };
+
+            var mapElement = document.getElementById('map');
+
+            var map = new google.maps.Map(mapElement, mapOptions);
+
+            var marker = new google.maps.Marker({
+                position: center,
+                map: map,
+                title: 'Carve Twenty Two'
+            });
+
+            google.maps.event.addDomListener(window, 'resize', function() {
+                map.setCenter(center);
+            });
+        }
+    </script>
+    <script type="text/javascript" async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAt-nM1bdGzzykrrpAbFL2Q9uc4QxGeuFE&callback=initMap"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="aside">
+        <img src="/images/logo.png" alt="Farm22" id="logo">
+      </div>
+      <div class="main">
+        <div class="main-content">
+          <ol class="list">
+            <li class="list-item">
+              <h1>Thai Fruit Carving</h1>
+              <p>Located in the heart of Bangkok, <b>Carve Twenty Two</b> offers a unique experience to learn Thai Fruit Carving.</p>
+            </li>
+            <li class="list-item">
+              <div class="the-wrapper">
+                <div class="the-location">
+                  <h2>Location</h2>
+                  <div vocab="http://schema.org/" typeof="LocalBusiness" id="address">
+                    <span property="name">Carve Twenty Two</span>
+                    <address property="address" typeof="PostalAddress">
+                      <span property="streetAddress">261/32 Sukhumvit Soi 22</span>
+                      <span property="postalCode">10110</span> <span property="addressLocality">Bangkok</span>,
+                      <span property="addressCountry">Thailand</span>
+                    </address>
+                    Phone: <a href='tel:+66847712350' class='tel-link'><span property="telephone">+66 84-771-2350</span></a>
+                  </div>
+                </div>
+                <div class="the-booking">
+                  <h2>Book Now</h2>
+                  Call us at <a href='tel:+66847712350' class='tel-link'>+66 84-771-2350</a> or
+                  <a href="https://www.airbnb.com/experiences/31760" target="_blank" class="button-white button-airbnb">
+                    <i class="airbnb-logo">
+                      <svg viewBox="0 0 1000 1000" aria-hidden="true" focusable="false" style="display: block; fill: currentcolor;">
+                        <path d="M499.3 736.7c-51-64-81-120.1-91-168.1-10-39-6-70 11-93 18-27 45-40 80-40s62 13 80 40c17 23 21 54 11 93-11 49-41 105-91 168.1zm362.2 43c-7 47-39 86-83 105-85 37-169.1-22-241.1-102 119.1-149.1 141.1-265.1 90-340.2-30-43-73-64-128.1-64-111 0-172.1 94-148.1 203.1 14 59 51 126.1 110 201.1-37 41-72 70-103 88-24 13-47 21-69 23-101 15-180.1-83-144.1-184.1 5-13 15-37 32-74l1-2c55-120.1 122.1-256.1 199.1-407.2l2-5 22-42c17-31 24-45 51-62 13-8 29-12 47-12 36 0 64 21 76 38 6 9 13 21 22 36l21 41 3 6c77 151.1 144.1 287.1 199.1 407.2l1 1 20 46 12 29c9.2 23.1 11.2 46.1 8.2 70.1zm46-90.1c-7-22-19-48-34-79v-1c-71-151.1-137.1-287.1-200.1-409.2l-4-6c-45-92-77-147.1-170.1-147.1-92 0-131.1 64-171.1 147.1l-3 6c-63 122.1-129.1 258.1-200.1 409.2v2l-21 46c-8 19-12 29-13 32-51 140.1 54 263.1 181.1 263.1 1 0 5 0 10-1h14c66-8 134.1-50 203.1-125.1 69 75 137.1 117.1 203.1 125.1h14c5 1 9 1 10 1 127.1.1 232.1-123 181.1-263.1z"></path>
+                      </svg>
+                    </i>
+                    Book on AirBNB
+                  </a>
+                </div>
+                <div class="the-host">
+                  <h2>About your Host</h2>
+                  <p>Waewmanee is the founder and executive chef of <a href="http://farm22.com" target="_blank">Farm 22</a>, a one-table, farm-to-table restaurant in the heart of Bangkok. In 2015, she opened a pop-up gallery for fruit and vegetable carving.</p>
+                </div>
+              </div>
+            </li>
+          </ol>
+        </div>
+        <div id="map"></div>
+      </div>
+    </div>
+  </body>
+</html>
